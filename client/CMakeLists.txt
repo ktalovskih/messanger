@@ -6,7 +6,6 @@ project(messenger_client)
 
 find_package(Qt6 COMPONENTS Widgets Core Gui Sql REQUIRED)
 
-
 add_executable(messenger_client src/main.cpp)
 
 target_include_directories(messenger_client PRIVATE ${SODIUM_INCLUDE_DIRS})
